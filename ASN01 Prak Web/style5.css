@@ -1,0 +1,127 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open sans", sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFFFFF;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width:100%;
+    margin:auto;
+    display:flex;
+    line-height:80px;
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    background:rgb(156, 201, 237) ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:#FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(156, 201, 237);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(156, 201, 237);
+  }
+
+  footer {
+    background-color: lightgray;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /* gaya teks pada footer */
+  footer p {
+    font-size: 0.8em;
+    margin: 0;
+  }
